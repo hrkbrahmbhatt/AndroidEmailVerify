@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "861862053942",
+    "firebase_url": "https://loginverfiy.firebaseio.com",
+    "project_id": "loginverfiy",
+    "storage_bucket": "loginverfiy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861862053942:android:e297554a70cc30c5",
+        "android_client_info": {
+          "package_name": "com.web2canada.androidemailverify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861862053942-d49vjilab5ksrfpkbpabq39e56gljm15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.web2canada.androidemailverify",
+            "certificate_hash": "b70401a318f5251337a0970e25b001edc4579347"
+          }
+        },
+        {
+          "client_id": "861862053942-9fofcgkr618fod4us7162i1iklabubap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIC2ftKp8cWFnfjP603qnbbEMFTyZFeVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861862053942-9fofcgkr618fod4us7162i1iklabubap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
