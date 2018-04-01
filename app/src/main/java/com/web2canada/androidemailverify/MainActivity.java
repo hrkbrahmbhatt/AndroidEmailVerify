@@ -28,20 +28,21 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode == PER_LOGIN){
 
             handleSignInResponse(requestCode,data);
-            return;
+
         }
     }
 
     private void handleSignInResponse(int requestCode, Intent data) {
 
     if(requestCode == RESULT_OK){
+        Toast.makeText(this,"Login Failed !!!",Toast.LENGTH_SHORT).show();
+
+    }else {
 
         Intent newActivity = new Intent(MainActivity.this,Status.class);
         startActivity(newActivity);
         finish();
-        return;
-    }else {
-        Toast.makeText(this,"Login Failed !!!",Toast.LENGTH_SHORT).show();
+
     }
 
     }
